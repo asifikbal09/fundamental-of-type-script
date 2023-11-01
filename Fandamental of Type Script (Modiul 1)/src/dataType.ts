@@ -18,10 +18,18 @@ let y: null = null;
 //-----------------------------------//
 
 //Array
-let friend :string[] = ['Alex',"Monika","Ricky"]
-friend.push("Lili")
+let friend: string[] = ["Alex", "Monika", "Ricky"];
+friend.push("Lili");
 // friend.push(56)  Error
 
-let rolls :number[]=[12,32,1,4,2,5]
-rolls.push(55)
+let rolls: number[] = [12, 32, 1, 4, 2, 5];
+rolls.push(55);
 // rolls.push("Tamim") Error
+
+//tuple--> array-->order-->type of value
+
+let coordinate: [number, number] = [1, 5];
+
+let ageName: [number, string, boolean] = [10, "Alex",true];
+
+

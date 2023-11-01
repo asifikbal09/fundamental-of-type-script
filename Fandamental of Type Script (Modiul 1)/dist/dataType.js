@@ -12,9 +12,12 @@ let x = undefined;
 let y = null;
 //-----------------------------------//
 //Array
-let friend = ['Alex', "Monika", "Ricky"];
+let friend = ["Alex", "Monika", "Ricky"];
 friend.push("Lili");
 // friend.push(56)  Error
 let rolls = [12, 32, 1, 4, 2, 5];
 rolls.push(55);
 // rolls.push("Tamim") Error
+//tuple--> array-->order-->type of value
+let coordinate = [1, 5];
+let ageName = [10, "Alex", true];
